@@ -1,0 +1,13 @@
+[{
+  "file": "/Users/affoon/Documents/Testing/Sources/main.c",
+  "directory": "/Users/affoon/Documents/Testing/Sources",
+  "command": "clang -c /Users/affoon/Documents/Testing/Sources/main.c -o /Users/affoon/Documents/Testing/Sources/main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "/Users/affoon/Documents/Testing/Sources/other.c",
+  "directory": "/Users/affoon/Documents/Testing/Sources",
+  "command": "clang -c /Users/affoon/Documents/Testing/Sources/other.c -o /Users/affoon/Documents/Testing/Sources/other.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "/Users/affoon/Documents/Testing/Sources/other.h",
+  "directory": "/Users/affoon/Documents/Testing/Sources",
+  "command": "clang++ -c /Users/affoon/Documents/Testing/Sources/other.h -o /Users/affoon/Documents/Testing/Sources/other.h.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]

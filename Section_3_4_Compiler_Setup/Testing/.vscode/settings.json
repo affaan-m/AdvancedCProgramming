@@ -1,0 +1,11 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/affoon/Documents/Testing/build-Debug/bin",
+            "binaryPath": "/Users/affoon/Documents/Testing/build-Debug/bin/Sources",
+            "binaryArgs": []
+        }
+    ],
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all"
+}

@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile linkedlist",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-c",
+                "-std=c99",
+                "-Wall",
+                "-g",
+                "${workspaceFolder}/Sources/linkedlist.c",
+                "-o",
+                "${workspaceFolder}/Sources/linkedlist.o"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Compile insert",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-c",
+                "-std=c99",
+                "-Wall",
+                "-g",
+                "${workspaceFolder}/Sources/insert.c",
+                "-o",
+                "${workspaceFolder}/Sources/insert.o"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Link",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "${workspaceFolder}/Sources/linkedlist.o",
+                "${workspaceFolder}/Sources/insert.o",
+                "-o",
+                "${workspaceFolder}/myProgram"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": ["Compile linkedlist", "Compile insert"]
+        }
+    ]
+}

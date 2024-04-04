@@ -1,0 +1,13 @@
+[{
+  "file": "/Users/affoon/Documents/Workspace2/Project1/main.c",
+  "directory": "/Users/affoon/Documents/Workspace2/Project1",
+  "command": "clang -c /Users/affoon/Documents/Workspace2/Project1/main.c -o /Users/affoon/Documents/Workspace2/Project1/main.c.o  -I. -I.  -g  -O0  -std=c99  -Wall"
+ }, {
+  "file": "/Users/affoon/Documents/Workspace2/Project2/main.c",
+  "directory": "/Users/affoon/Documents/Workspace2/Project2",
+  "command": "clang -c /Users/affoon/Documents/Workspace2/Project2/main.c -o /Users/affoon/Documents/Workspace2/Project2/main.c.o  -I. -I.  -g  -O0  -std=c99  -Wall"
+ }, {
+  "file": "/Users/affoon/Documents/Workspace2/OurFirstProject/main.c",
+  "directory": "/Users/affoon/Documents/Workspace2/OurFirstProject",
+  "command": "clang -c /Users/affoon/Documents/Workspace2/OurFirstProject/main.c -o /Users/affoon/Documents/Workspace2/OurFirstProject/main.c.o  -I. -I.  -g  -O0  -std=c99  -Wall"
+ }]
